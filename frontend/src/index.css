@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-underline .nav-link.active {
+  border-bottom: 3px solid #0d6efd;
+  /* Blue underline */
+}
+
+.nav-underline .nav-link {
+  border-bottom: 3px solid transparent;
+}
+
+.nav-underline .nav-link:hover {
+  border-bottom: 3px solid #0d6efd;
+}
+
+.team-img {
+  width: 200px;
+  max-width: 80vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.team-title {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .team-img {
+    width: 120px;
+  }
+
+  .team-name {
+    font-size: 1.1rem;
+  }
+
+  .team-title {
+    font-size: 0.95rem;
+  }
+}
+
+/* Fix padding issues on medium screens (766px–1000px) */
+@media (min-width: 766px) and (max-width: 1000px) {
+  .brokerage-wrapper {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .brokerage-col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .brokerage-disclaimer {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
