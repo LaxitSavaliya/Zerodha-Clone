@@ -30,7 +30,7 @@ frontend/public/ # Static assets
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/LaxitSavaliya/Zerodha-clone.git
+   git clone https://github.com/LaxitSavaliya/Trose.git
    cd Zerodha-clone
    ```
 2. Install dependencies:
