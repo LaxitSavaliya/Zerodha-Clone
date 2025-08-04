@@ -31,7 +31,7 @@ frontend/public/ # Static assets
 1. Clone the repository:
    ```sh
    git clone https://github.com/LaxitSavaliya/Trose.git
-   cd Zerodha-clone
+   cd Trose
    ```
 2. Install dependencies:
    ```sh
